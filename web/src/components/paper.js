@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import * as styles from "../styles/paper.module.scss"
 
@@ -7,7 +8,7 @@ const Tags = ({ tags }) => {
 }
 
 const Paper = ({ paper }) => {
-  const { title, url, anno, tags, year, journal } = paper
+  const { title, url, anno, tags, year, journal, summary } = paper
 
   let display
 
@@ -30,7 +31,9 @@ const Paper = ({ paper }) => {
 
       {tags ? <Tags tags={tags} /> : null}
 
-      {summary ? <Link to={`/papers/${summary}`}>Summary</Link> : null}
+      <div className={styles.notesContainer}>
+        {summary ? <Link to={`/papers/${summary}`}>Notes</Link> : null}
+      </div>
     </div>
   )
 }

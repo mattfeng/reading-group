@@ -2,7 +2,10 @@
     p {
         margin: 0;
     }
-    padding: 0.15em 0;
+    padding: 0.25em 0.5em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
 }
 
 
@@ -10,4 +13,8 @@
     font-size: 0.8em;
     font-style: oblique;
     color: gray;
+}
+
+.notesContainer {
+    font-style: oblique;
 }

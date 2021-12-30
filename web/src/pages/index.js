@@ -42,13 +42,9 @@ const journals = {
 const Papers = ({ papers }) => {
   return (
     <div>
-      <ul>
-        {papers.map(paper => (
-          <li key={paper.title}>
-            <Paper paper={paper} />
-          </li>
-        ))}
-      </ul>
+      {papers.map(paper => (
+        <Paper key={paper.title} paper={paper} />
+      ))}
     </div>
   )
 }

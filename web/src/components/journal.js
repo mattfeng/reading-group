@@ -10,6 +10,7 @@ const Journal = ({ name, impactFactor, url }) => {
           {name}
         </a>
         {impactFactor ? ` (impact factor: ${impactFactor})` : null}
+        {about ? <p>{about}</p> : null}
       </div>
     </div>
   )

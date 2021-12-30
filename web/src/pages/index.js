@@ -26,11 +26,12 @@ const Journals = ({ allJournals, impactFactor }) => {
         <div>
           <h3>{display}</h3>
           <ul>
-            {journals?.map(({ name, url, id }) => (
+            {journals?.map(({ name, url, id, about }) => (
               <li key={id}>
                 <Journal
                   name={name}
                   url={url}
+                  about={about}
                   impactFactor={impactFactor[id]}
                 />
               </li>

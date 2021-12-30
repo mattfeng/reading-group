@@ -4,6 +4,7 @@ cancer:
     - name: Annals of Oncology
       id: annals_oncology
       url: https://www.annalsofoncology.org/
+      about: Official journal of the European Society for Medical Oncology (ESMO) and Japanese Society of Medical Oncology (JSMO).
     - name: "CA: A Cancer Journal for Clinicians"
       id: cancer_clinicians
       url: https://acsjournals.onlinelibrary.wiley.com/journal/15424863

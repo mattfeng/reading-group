@@ -1,25 +1,43 @@
+# Cancer
 - title: Intermittent fasting in the prevention and treatment of cancer
   url: https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21694
+  tags:
+    - cancer
+
 - title: Multi-input RNAi-based Logic Circuit for Identification of Specific Cancer Cells
   url: https://www.science.org/doi/10.1126/science.1205527
   anno: The first paper to describe a circuit that could distinguish malignant and non-malignant cells based on intracellular miRNA expression profiles to specific activity in diseased cells.
+  tags:
+    - cancer
+
 - title: "Cell-Based Therapeutics: The Next Pillar of Medicine"
   url: https://www.science.org/doi/10.1126/scitranslmed.3005568
   anno: Lists cancer-specific biomarkers.
+  summary: scitranslmed.3005568
+  tags:
+    - overview
+
 - title: A decade of cell therapy clinical trials
   url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
+  tags:
+    - cancer
+
 - title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
   url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
   anno: Clinical trial of CAR-T cells for treating CLL.
   tags:
+    - cancer
     - CAR-T cells
     - clinical trial
 - title: T Cells with Chimeric Antigen Receptors Have Potent Antitumor Effects and Can Establish Memory in Patients with Advanced Leukemia
   url: https://www.science.org/doi/10.1126/scitranslmed.3002842
   tags:
+    - cancer
     - CAR-T cells
 
+# ===================================
 # IBD
+# ===================================
 - title: "Microbiota-targeted therapies: an ecological perspective"
   url: https://www.science.org/doi/10.1126/scitranslmed.3004183
   year: 2012
@@ -42,7 +60,9 @@
   tags:
     - IBD
 
+# =====================================
 # Synbio foundational tools
+# =====================================
 - title: De novo DNA synthesis using polymerase-nucleotide conjugates
   url: https://www.nature.com/articles/nbt.4173
   year: 2018

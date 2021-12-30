@@ -29,6 +29,8 @@ const Paper = ({ paper }) => {
       {anno ? <p className={styles.annotation}>{anno}</p> : null}
 
       {tags ? <Tags tags={tags} /> : null}
+
+      {summary ? <Link to={`/papers/${summary}`}>Summary</Link> : null}
     </div>
   )
 }

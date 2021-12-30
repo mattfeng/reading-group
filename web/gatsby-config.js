@@ -19,5 +19,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`],
+        defaultLayouts: {
+          default: require.resolve("./src/templates/summary.js"),
+        },
+      },
+    },
   ],
 }

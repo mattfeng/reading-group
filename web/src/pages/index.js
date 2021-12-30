@@ -42,9 +42,9 @@ const Papers = ({ papers }) => {
   return (
     <div>
       <ul>
-        {papers.map(({ title, link }) => (
+        {papers.map(({ title, url }) => (
           <li key="title">
-            <a target="_blank" rel="noreferrer" href={link}>
+            <a target="_blank" rel="noreferrer" href={url}>
               {title}
             </a>
           </li>
@@ -79,15 +79,19 @@ const IndexPage = () => {
 
   useEffect(() => {
     ;(async () => {
-      const data = await axios.get("http://api.mattfeng.tech/impact")
-      setImpactFactor(data["data"])
+      try {
+        const data = await axios.get("http://api.mattfeng.tech/impact")
+        setImpactFactor(data["data"] ? data["data"] : {})
+      } catch {}
     })()
   }, [])
 
   useEffect(() => {
     ;(async () => {
-      const papers = await axios.get("http://api.mattfeng.tech/papers")
-      setPapers(papers["data"])
+      try {
+        const papers = await axios.get("http://api.mattfeng.tech/papers")
+        setPapers(papers["data"])
+      } catch {}
     })()
   }, [])
 

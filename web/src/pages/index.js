@@ -81,7 +81,7 @@ const IndexPage = () => {
     ;(async () => {
       console.log("impact")
       try {
-        const data = await axios.get("http://api.mattfeng.tech/impact")
+        const data = await axios.get("https://api.mattfeng.tech/impact")
         setImpactFactor(data["data"] ? data["data"] : {})
       } catch {}
     })()
@@ -91,7 +91,7 @@ const IndexPage = () => {
     ;(async () => {
       console.log("papers")
       try {
-        const papers = await axios.get("http://api.mattfeng.tech/papers")
+        const papers = await axios.get("https://api.mattfeng.tech/papers")
         setPapers(papers["data"])
       } catch {}
     })()

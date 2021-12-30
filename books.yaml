@@ -1,1 +1,26 @@
-- title: BioBuilder
+synbio:
+  display: Synthetic Biology
+  books:
+    - title: "BioBuilder: Synthetic Biology in the Lab"
+      author:
+        - Natalie Kuldell
+        - Rachel Bernstein
+        - Karen Ingram
+        - Kathryn M. Hart 
+
+healthcare:
+  display: Healthcare
+  books:
+    - title: "An American Sickness: How Healthcare Became Big Business and How You Can Take It Back"
+      author: Elizabeth Rosenthal
+      notes: an-american-sickness
+    - title: "The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care"
+      author: T. R. Reid
+      notes: healing-of-america
+    - title: America's Bitter Pill
+      author: Steven Brill
+      notes: americas-bitter-pill
+    - title: The Health Care Handbook
+      author:
+        - Elizabeth Askin
+        - Nathan Moore

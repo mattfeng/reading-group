@@ -2,7 +2,7 @@ import React from "react"
 
 import * as styles from "../styles/journal.module.scss"
 
-const Journal = ({ name, impactFactor, url }) => {
+const Journal = ({ name, impactFactor, url, about }) => {
   return (
     <div className={styles.journalContainer}>
       <div className={styles.title}>

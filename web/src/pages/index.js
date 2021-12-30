@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Journal from "../components/journal"
+import Book from "../components/book"
 import Layout from "../components/layout"
 import Paper from "../components/paper"
 
@@ -48,14 +49,47 @@ const Journals = ({ allJournals, impactFactor }) => {
   return <div>{sections}</div>
 }
 
+const Books = ({ allBooks }) => {
+  const makeSections = () => {
+    let sections = []
+
+    for (const [topic, values] of Object.entries(allBooks)) {
+      const { display, books } = values
+      sections.push(
+        <div>
+          <h3>{display}</h3>
+          <ul>
+            {books?.map(({ title, url, author, about, notes }) => (
+              <li key={title}>
+                <Book
+                  title={title}
+                  url={url}
+                  author={author}
+                  about={about}
+                  notes={notes}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    return sections
+  }
+  const sections = makeSections()
+
+  return <div>{sections}</div>
+}
+
 const IndexPage = () => {
   const [impactFactor, setImpactFactor] = useState({})
   const [papers, setPapers] = useState([])
   const [journals, setJournals] = useState({})
+  const [books, setBooks] = useState({})
 
   useEffect(() => {
     ;(async () => {
-      console.log("impact")
       try {
         const data = await axios.get("https://api.mattfeng.tech/impact")
         setImpactFactor(data["data"] ? data["data"] : {})
@@ -65,7 +99,6 @@ const IndexPage = () => {
 
   useEffect(() => {
     ;(async () => {
-      console.log("papers")
       try {
         const papers = await axios.get("https://api.mattfeng.tech/papers")
         setPapers(papers["data"])
@@ -82,6 +115,15 @@ const IndexPage = () => {
     })()
   }, [])
 
+  useEffect(() => {
+    ;(async () => {
+      try {
+        const books = await axios.get("https://api.mattfeng.tech/books")
+        setBooks(books["data"])
+      } catch {}
+    })()
+  }, [])
+
   return (
     <Layout>
       <div className={styles.indexContainer}>
@@ -92,6 +134,9 @@ const IndexPage = () => {
 
         <h2>Papers</h2>
         <Papers papers={papers} />
+
+        <h2>Books</h2>
+        <Papers allBooks={books} />
       </div>
     </Layout>
   )

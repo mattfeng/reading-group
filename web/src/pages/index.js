@@ -6,39 +6,6 @@ import Paper from "../components/paper"
 import axios from "axios"
 import * as styles from "../styles/index.module.scss"
 
-const journals = {
-  orgo: [
-    {
-      name: "Journal of Medicinal Chemistry",
-      url: "https://pubs.acs.org/journal/jmcmar",
-      _id: "journal_med_chem",
-    },
-    {
-      name: "Tetrahedron",
-      url: "https://www.sciencedirect.com/journal/tetrahedron",
-      _id: "tetrahedron",
-    },
-  ],
-  cancer: [],
-  ml: [
-    {
-      name: "International Conference on Learning Representations",
-      url: "https://iclr.cc/",
-      _id: "iclr",
-    },
-    {
-      name: "International Conference on Machine Learning",
-      url: "https://icml.cc/",
-      _id: "icml",
-    },
-    {
-      name: "Neural Information Processing Systems (NeurIPS)",
-      url: "https://nips.cc/",
-      _id: "neurips",
-    },
-  ],
-}
-
 const Papers = ({ papers }) => {
   return (
     <div>
@@ -49,28 +16,41 @@ const Papers = ({ papers }) => {
   )
 }
 
-const Journals = ({ journals, impactFactor }) => {
-  return (
-    <div>
-      <ul>
-        {journals.map(({ name, url, _id }) => (
-          <li>
-            <Journal
-              key={_id}
-              name={name}
-              url={url}
-              impactFactor={impactFactor[_id]}
-            />
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
+const Journals = ({ allJournals, impactFactor }) => {
+  const makeSections = () => {
+    let sections = []
+
+    for (const [topic, values] of Object.entries(allJournals)) {
+      const { display, journals } = values
+      sections.append(
+        <div>
+          <h2>{display}</h2>
+
+          <ul>
+            {journals.map(({ name, url, id }) => (
+              <li key={id}>
+                <Journal
+                  name={name}
+                  url={url}
+                  impactFactor={impactFactor[id]}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+
+    return sections
+  }
+
+  return <div>{sections}</div>
 }
 
 const IndexPage = () => {
   const [impactFactor, setImpactFactor] = useState({})
   const [papers, setPapers] = useState([])
+  const [journals, setJournals] = useState({})
 
   useEffect(() => {
     ;(async () => {
@@ -92,24 +72,24 @@ const IndexPage = () => {
     })()
   }, [])
 
+  useEffect(() => {
+    ;(async () => {
+      try {
+        const journals = await axios.get("https://api.mattfeng.tech/journals")
+        setJournals(journals["data"])
+      } catch {}
+    })()
+  }, [])
+
   return (
     <Layout>
       <div className={styles.indexContainer}>
         <h1>Reading group</h1>
 
         <h2>Journals</h2>
-
-        <h3>Organic Chemistry</h3>
-        <Journals journals={journals["orgo"]} impactFactor={impactFactor} />
-
-        <h3>Cancer</h3>
-        <Journals journals={journals["cancer"]} impactFactor={impactFactor} />
-
-        <h3>Machine Learning</h3>
-        <Journals journals={journals["ml"]} impactFactor={impactFactor} />
+        <Journals journals={journals} impactFactor={impactFactor} />
 
         <h2>Papers</h2>
-
         <Papers papers={papers} />
       </div>
     </Layout>

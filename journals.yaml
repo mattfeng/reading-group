@@ -5,7 +5,22 @@ cancer:
 orgo:
   display: Organic Chemistry
   journals:
+    - name: Journal of Medicinal Chemistry
+      id: journal_med_chem
+      url: https://pubs.acs.org/journal/jmcmar
+    - name: Tetrahedron
+      id: tetrahedron
+      url: https://www.sciencedirect.com/journal/tetrahedron
 
 ml:
   display: Machine Learning
   journals:
+    - name: International Conference on Machine Learning
+      id: icml
+      url: https://icml.cc/
+    - name: International Conference on Learning Representations
+      id: iclr
+      url: https://iclr.cc/
+    - name: Neural Information Processing Systems
+      id: neurips
+      url: https://nips.cc/

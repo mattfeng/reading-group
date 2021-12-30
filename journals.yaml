@@ -1,6 +1,21 @@
 cancer:
   display: Cancer
   journals:
+    - name: Annals of Oncology
+      id: annals_oncology
+      url: https://www.annalsofoncology.org/
+    - name: "CA: A Cancer Journal for Clinicians"
+      id: cancer_clinicians
+      url: https://acsjournals.onlinelibrary.wiley.com/journal/15424863
+    - name: The Lancet Oncology
+      id: lancet_oncology
+      url: https://www.thelancet.com/journals/lanonc/home
+    - name: Cancer Cell
+      id: cancer_cell
+      url: https://www.cell.com/cancer-cell/home
+    - name: Journal of Clinical Oncology
+      id: journal_of_clinical_oncology
+      url: https://ascopubs.org/journal/jco
 
 orgo:
   display: Organic Chemistry

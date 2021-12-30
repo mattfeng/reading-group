@@ -22,12 +22,11 @@ const Journals = ({ allJournals, impactFactor }) => {
 
     for (const [topic, values] of Object.entries(allJournals)) {
       const { display, journals } = values
-      sections.append(
+      sections.push(
         <div>
-          <h2>{display}</h2>
-
+          <h3>{display}</h3>
           <ul>
-            {journals.map(({ name, url, id }) => (
+            {journals?.map(({ name, url, id }) => (
               <li key={id}>
                 <Journal
                   name={name}
@@ -43,6 +42,7 @@ const Journals = ({ allJournals, impactFactor }) => {
 
     return sections
   }
+  const sections = makeSections()
 
   return <div>{sections}</div>
 }
@@ -87,7 +87,7 @@ const IndexPage = () => {
         <h1>Reading group</h1>
 
         <h2>Journals</h2>
-        <Journals journals={journals} impactFactor={impactFactor} />
+        <Journals allJournals={journals} impactFactor={impactFactor} />
 
         <h2>Papers</h2>
         <Papers papers={papers} />

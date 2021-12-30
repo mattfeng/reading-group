@@ -5,6 +5,8 @@ import { Link } from "gatsby"
 import * as styles from "../styles/summary.module.scss"
 import Layout from "../components/layout"
 
+require(`katex/dist/katex.min.css`)
+
 const components = {
   Link,
 }

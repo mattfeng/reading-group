@@ -23,6 +23,8 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`],
+        remarkPlugins: [[require(`remark-math`), { strict: "ignore" }]],
+        rehypePlugins: [require(`rehype-katex`)],
         defaultLayouts: {
           default: require.resolve("./src/templates/summary.js"),
         },

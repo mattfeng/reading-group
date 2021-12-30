@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+$serif: "Lora", serif;
+$sans: "Source Sans Pro", sans-serif;
+
+.summaryContainer {
+    font-family: $serif;
+
+    li, p {
+        font-family: $sans;
+    }
+}

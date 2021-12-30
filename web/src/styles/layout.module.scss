@@ -2,4 +2,8 @@
     max-width: min(80%, 80ch);
     min-width: min(80%, 80ch);
     margin: 0 auto;
+
+    p, li {
+        line-height: 1.25;
+    }
 }

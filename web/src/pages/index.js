@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Journal from "../components/journal"
 import Layout from "../components/layout"
+import Paper from "../components/paper"
 
 import axios from "axios"
 import * as styles from "../styles/index.module.scss"
@@ -42,16 +43,9 @@ const Papers = ({ papers }) => {
   return (
     <div>
       <ul>
-        {papers.map(({ title, url, anno }) => (
-          <li key="title">
-            <div className={styles.paperContainer}>
-              <p>
-                <a target="_blank" rel="noreferrer" href={url}>
-                  {title}
-                </a>
-              </p>
-              {anno ? <p className={styles.annotation}>{anno}</p> : null}
-            </div>
+        {papers.map(paper => (
+          <li key={paper.title}>
+            <Paper paper={paper} />
           </li>
         ))}
       </ul>

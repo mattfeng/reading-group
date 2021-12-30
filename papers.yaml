@@ -23,17 +23,31 @@
 - title: "Microbiota-targeted therapies: an ecological perspective"
   url: https://www.science.org/doi/10.1126/scitranslmed.3004183
   year: 2012
-  tags: IBD
+  tags:
+    - IBD
 - title: "Community Health Care: Therapeutic Opportunities in the Human Microbiome"
   url: https://www.science.org/doi/10.1126/scitranslmed.3001626
   year: 2011
-  tags: IBD
+  tags:
+    - IBD
 - title: Therapeutic modulation of microbiota-host metabolic interactions
   url: https://www.science.org/doi/10.1126/scitranslmed.3004244
   year: 2012
-  tags: IBD
+  tags:
+    - IBD
 - title: Duodenal infusion of donor feces for recurrent Clostridium difficile
   url: https://www.nejm.org/doi/10.1056/NEJMoa1205037
   year: 2013
   journal: NEJM
-  tags: IBD
+  tags:
+    - IBD
+
+# Synbio foundational tools
+- title: De novo DNA synthesis using polymerase-nucleotide conjugates
+  url: https://www.nature.com/articles/nbt.4173
+  year: 2018
+  journal: Nature Biotechnology
+- title: "Large-scale de novo DNA synthesis: technologies and applications"
+  url: https://www.nature.com/articles/nmeth.2918
+  year: 2014
+  journal: Nature Methods

@@ -8,3 +8,32 @@
   anno: Lists cancer-specific biomarkers.
 - title: A decade of cell therapy clinical trials
   url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
+- title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
+  url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
+  anno: Clinical trial of CAR-T cells for treating CLL.
+  tags:
+    - CAR-T cells
+    - clinical trial
+- title: T Cells with Chimeric Antigen Receptors Have Potent Antitumor Effects and Can Establish Memory in Patients with Advanced Leukemia
+  url: https://www.science.org/doi/10.1126/scitranslmed.3002842
+  tags:
+    - CAR-T cells
+
+# IBD
+- title: "Microbiota-targeted therapies: an ecological perspective"
+  url: https://www.science.org/doi/10.1126/scitranslmed.3004183
+  year: 2012
+  tags: IBD
+- title: "Community Health Care: Therapeutic Opportunities in the Human Microbiome"
+  url: https://www.science.org/doi/10.1126/scitranslmed.3001626
+  year: 2011
+  tags: IBD
+- title: Therapeutic modulation of microbiota-host metabolic interactions
+  url: https://www.science.org/doi/10.1126/scitranslmed.3004244
+  year: 2012
+  tags: IBD
+- title: Duodenal infusion of donor feces for recurrent Clostridium difficile
+  url: https://www.nejm.org/doi/10.1056/NEJMoa1205037
+  year: 2013
+  journal: NEJM
+  tags: IBD

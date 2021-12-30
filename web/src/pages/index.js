@@ -42,11 +42,16 @@ const Papers = ({ papers }) => {
   return (
     <div>
       <ul>
-        {papers.map(({ title, url }) => (
+        {papers.map(({ title, url, anno }) => (
           <li key="title">
-            <a target="_blank" rel="noreferrer" href={url}>
-              {title}
-            </a>
+            <div className={styles.paperContainer}>
+              <p>
+                <a target="_blank" rel="noreferrer" href={url}>
+                  {title}
+                </a>
+              </p>
+              {anno ? <p className={styles.annotation}>{anno}</p> : null}
+            </div>
           </li>
         ))}
       </ul>

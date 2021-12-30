@@ -79,6 +79,7 @@ const IndexPage = () => {
 
   useEffect(() => {
     ;(async () => {
+      console.log("impact")
       try {
         const data = await axios.get("http://api.mattfeng.tech/impact")
         setImpactFactor(data["data"] ? data["data"] : {})
@@ -88,6 +89,7 @@ const IndexPage = () => {
 
   useEffect(() => {
     ;(async () => {
+      console.log("papers")
       try {
         const papers = await axios.get("http://api.mattfeng.tech/papers")
         setPapers(papers["data"])

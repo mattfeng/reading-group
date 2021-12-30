@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  pathPrefix: "/reading-group",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

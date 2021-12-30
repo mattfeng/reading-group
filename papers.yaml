@@ -10,30 +10,46 @@
   tags:
     - cancer
 
-- title: "Cell-Based Therapeutics: The Next Pillar of Medicine"
-  url: https://www.science.org/doi/10.1126/scitranslmed.3005568
-  anno: Lists cancer-specific biomarkers.
-  summary: scitranslmed.3005568
-  tags:
-    - overview
-
 - title: A decade of cell therapy clinical trials
   url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
   tags:
     - cancer
+    - cell-based therapy
 
 - title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
   url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
   anno: Clinical trial of CAR-T cells for treating CLL.
   tags:
     - cancer
+    - cell-based therapy
     - CAR-T cells
     - clinical trial
 - title: T Cells with Chimeric Antigen Receptors Have Potent Antitumor Effects and Can Establish Memory in Patients with Advanced Leukemia
   url: https://www.science.org/doi/10.1126/scitranslmed.3002842
   tags:
     - cancer
+    - cell-based therapy
     - CAR-T cells
+
+# =======================================
+# Cell-based therapies
+# =======================================
+- title: "Cell-Based Therapeutics: The Next Pillar of Medicine"
+  url: https://www.science.org/doi/10.1126/scitranslmed.3005568
+  anno: Lists cancer-specific biomarkers.
+  summary: scitranslmed.3005568
+  tags:
+    - overview
+    - cell-based therapy
+
+- title: Engineering living therapeutics with synthetic biology
+  url: https://www.nature.com/articles/s41573-021-00285-3
+  anno: Overview of synthetic biology engineered, cell-based therapeutics.
+  year: 2021
+  summary: s41573-021-00285-3
+  tags:
+    - overview
+    - cell-based therapy
 
 # ===================================
 # IBD

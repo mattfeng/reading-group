@@ -1,0 +1,11 @@
+cancer:
+  display: Cancer
+  journals:
+
+orgo:
+  display: Organic Chemistry
+  journals:
+
+ml:
+  display: Machine Learning
+  journals:

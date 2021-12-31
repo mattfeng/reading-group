@@ -180,3 +180,26 @@
   tags:
     - ml
     - non-contrastive energy model
+- title: Growing Neural Cellular Automata
+  url: https://distill.pub/2020/growing-ca/
+  journal: Distill
+  year: 2020
+  tags:
+    - ml
+    - self-organizing
+    - morphogenetic engineering
+- title: Variational Neural Cellular Automata
+  url: https://openreview.net/forum?id=7fFO4cMBx_9
+  year: 2021
+  tags:
+    - ml
+    - self-organizing
+    - morphogenetic engineering
+- title: A critique of pure learning and what artificial neural networks can learn from animal brains
+  url: https://www.nature.com/articles/s41467-019-11786-6
+  anno: The "genomic bottleneck" in developmental biology.
+  year: 2019
+  tags:
+    - ml
+    - neuroscience
+    - commentary

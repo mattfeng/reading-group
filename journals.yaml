@@ -18,6 +18,13 @@ cancer:
       id: journal_of_clinical_oncology
       url: https://ascopubs.org/journal/jco
 
+internal_medicine:
+  display: Internal Medicine
+  journals:
+    - name: Annals of Internal Medicine
+      id: annals_int_med
+      url: https://www.acpjournals.org/journal/aim
+
 orgo:
   display: Organic Chemistry
   journals:

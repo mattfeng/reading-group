@@ -47,3 +47,20 @@ healthcare:
     - title: "Better: A Surgeons Notes on Performance"
       author: Atul Gawande
       year: 2007
+  
+statistics:
+  display: Statistics
+  books:
+    - title: Statistics
+      author:
+        - David Freedman
+        - Robert Pisani
+        - Roger Purves
+      year: 2007
+      notes: statistics
+    - title: R for Data Science
+      author:
+        - Hadley Wickham
+        - Garrett Grolemund
+      year: 2016
+      notes: r4ds

@@ -10,7 +10,7 @@ import * as styles from "../styles/index.module.scss"
 const Papers = ({ papers }) => {
   return (
     <div>
-      {papers.map(paper => (
+      {papers?.map(paper => (
         <Paper key={paper.title} paper={paper} />
       ))}
     </div>
@@ -58,19 +58,15 @@ const Books = ({ allBooks }) => {
       sections.push(
         <div>
           <h3>{display}</h3>
-          <ul>
-            {books?.map(({ title, url, author, about, notes }) => (
-              <li key={title}>
-                <Book
-                  title={title}
-                  url={url}
-                  author={author}
-                  about={about}
-                  notes={notes}
-                />
-              </li>
-            ))}
-          </ul>
+          {books?.map(({ title, url, author, about, notes }) => (
+            <Book
+              title={title}
+              url={url}
+              author={author}
+              about={about}
+              notes={notes}
+            />
+          ))}
         </div>
       )
     }
@@ -136,7 +132,7 @@ const IndexPage = () => {
         <Papers papers={papers} />
 
         <h2>Books</h2>
-        <Papers allBooks={books} />
+        <Books allBooks={books} />
       </div>
     </Layout>
   )

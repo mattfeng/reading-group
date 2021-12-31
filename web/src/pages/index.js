@@ -58,13 +58,14 @@ const Books = ({ allBooks }) => {
       sections.push(
         <div>
           <h3>{display}</h3>
-          {books?.map(({ title, url, author, about, notes }) => (
+          {books?.map(({ title, url, author, about, notes, year }) => (
             <Book
               title={title}
               url={url}
               author={author}
               about={about}
               notes={notes}
+              year={year}
             />
           ))}
         </div>

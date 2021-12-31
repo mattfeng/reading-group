@@ -40,3 +40,6 @@ ml:
     - name: Neural Information Processing Systems
       id: neurips
       url: https://nips.cc/
+    - name: Journal of Machine Learning Research
+      id: jmlr
+      url: https://www.jmlr.org/

@@ -5,19 +5,16 @@
   url: https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21694
   tags:
     - cancer
-
 - title: Multi-input RNAi-based Logic Circuit for Identification of Specific Cancer Cells
   url: https://www.science.org/doi/10.1126/science.1205527
   anno: The first paper to describe a circuit that could distinguish malignant and non-malignant cells based on intracellular miRNA expression profiles to specific activity in diseased cells.
   tags:
     - cancer
-
 - title: A decade of cell therapy clinical trials
   url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
   tags:
     - cancer
     - cell-based therapy
-
 - title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
   url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
   anno: Clinical trial of CAR-T cells for treating CLL.
@@ -43,7 +40,6 @@
   tags:
     - overview
     - cell-based therapy
-
 - title: Engineering living therapeutics with synthetic biology
   url: https://www.nature.com/articles/s41573-021-00285-3
   anno: Overview of synthetic biology engineered, cell-based therapeutics.
@@ -52,6 +48,27 @@
   tags:
     - overview
     - cell-based therapy
+- title: The emerging landscape of immune cell therapies
+  url: https://www.cell.com/cell/fulltext/S0092-8674(20)30263-4
+  anno: Discusses kill-switches as a response to cytokine release syndrome.
+  year: 2020
+  tags:
+    - overview
+    - immunotherapy
+- title: Programming gene and engineered-cell therapies with synthetic biology
+  url: https://www.science.org/doi/10.1126/science.aad1067
+  anno: Discusses use of multiple sensors before activating therapies.
+  year: 2018
+  journal: Science
+  tags:
+    - cell-based therapy
+- title: Safety and feasibility of anti-CD19 CAR T cells with fully human binding domains in patients with B-cell lymphoma
+  url: https://www.nature.com/articles/s41591-019-0737-3
+  year: 2020
+  anno: Attempts to reduce CAR-T side effects (neurological damage).
+  journal: Nature Medicine
+  tags:
+    - immunotherapy
 
 # ===================================
 # IBD
@@ -110,3 +127,56 @@
   url: https://www.nature.com/articles/s41551-019-0495-z
   journal: Nature Biomedical Engineering
   citations: 88
+
+# ============================================
+# Tissue engineering and regenerative medicine
+# ============================================
+- title: "Bio-Fabrication: Convergence of 3D Bioprinting and Nano-Biomaterials in Tissue Engineering and Regenerative Medicine"
+  url: https://www.frontiersin.org/articles/10.3389/fbioe.2020.00326/full
+  journal: Front. Bioeng. Biotechnol.
+  year: 2020
+  tags:
+    - 3d printing
+    - TERM
+
+# ===================
+# Machine learning
+# ===================
+- title: Designing Network Design Spaces
+  url: https://openaccess.thecvf.com/content_CVPR_2020/papers/Radosavovic_Designing_Network_Design_Spaces_CVPR_2020_paper.pdf
+  anno: "RegNets: efficient networks in training and inference."
+  journal: CVPR
+  year: 2020
+  tags:
+    - ml
+- title: Extracting and Composing Robust Features with Denoising Autoencoders
+  url: https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf
+  journal: ICML
+  year: 2008
+  tags:
+    - ml
+    - denoising autoencoder
+- title: Natural Language Processing (Almost) from Scratch
+  url: https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf
+  journal: JMLR
+  year: 2011
+  anno: Denoising autoencoders in NLP.
+  tags:
+    - ml
+    - denoising autoencoder
+    - nlp
+- title: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+  url: https://arxiv.org/abs/2006.09882
+  journal: NeurIPS
+  anno: Introduces SwAV online algorithm.
+  year: 2020
+  tags:
+    - ml
+    - non-contrastive energy model
+- title: "Bootstrap your own latent: A new approach to self-supervised Learning"
+  url: https://arxiv.org/abs/2006.07733
+  journal: NeurIPS
+  year: 2020
+  tags:
+    - ml
+    - non-contrastive energy model

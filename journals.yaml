@@ -17,6 +17,51 @@ cancer:
     - name: Journal of Clinical Oncology
       id: journal_of_clinical_oncology
       url: https://ascopubs.org/journal/jco
+    - name: Cancer Discovery
+      id: cancer_discovery
+      url: https://cancerdiscovery.aacrjournals.org/
+      about: Features major advances in research and clinical trials.
+    - name: Journal of the National Cancer Institute
+      id: journal_of_nci
+      url: http://jnci.oxfordjournals.org/
+    - name: Leukemia
+      id: leukemia
+      url: https://www.nature.com/leu/
+    - name: Cancer Research
+      id: cancer_research
+      url: https://cancerres.aacrjournals.org/
+    - name: Seminars in Cancer Biology
+      id: seminars_in_cancer_bio
+      url: https://www.journals.elsevier.com/seminars-in-cancer-biology
+    - name: Oncogene
+      id: oncogene
+      url: https://www.nature.com/onc/
+    - name: Clinical Cancer Research
+      id: clinical_cancer_research
+      url: https://clincancerres.aacrjournals.org/
+    - name: BBA - Reviews on Cancer
+      id: bba
+      url: https://www.sciencedirect.com/journal/biochimica-et-biophysica-acta-bba-reviews-on-cancer
+      about: Covers the biology and biochemistry of cancer.
+    - name: The Journal of Pathology
+      id: journal_of_pathology
+      url: https://onlinelibrary.wiley.com/loi/10969896
+    - name: Stem Cells
+      id: stem_cells
+      url: https://stemcellsjournals.onlinelibrary.wiley.com/journal/15494918
+      about: Publishes advances in stem-cell clinical trials and mechanism manuscripts.
+    - name: Oncotarget
+      id: oncotarget
+      url: https://www.oncotarget.com/
+      about: Publishes research in all areas of biology and medicine.
+    - name: Cancer Treatment Reviews
+      id: cancer_treatment_reviews
+      url: https://www.cancertreatmentreviews.com/
+      about: Keeps both the clinician and researcher abreast of developments in cancer treatment research.
+    - name: Cancer and Metastasis Reviews
+      id: cancer_and_metastasis_reviews
+      url: https://www.springer.com/journal/10555
+      about: Each issue presents 5 to 7 different contributions on a single theme, with special emphasis on molecular and cellular biology of metastasis and tumor progression.
 
 internal_medicine:
   display: Internal Medicine

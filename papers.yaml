@@ -84,7 +84,13 @@
   tags:
     - cancer
     - database
-
+- title: Enhancement of Antitumor Immunity by CTLA-4 blockade
+  url: https://www.science.org/doi/10.1126/science.271.5256.1734
+  journal: Science
+  year: 1996
+  tags:
+    - cancer
+    - checkpoint
 
 # =======================================
 # Cell-based therapies
@@ -259,3 +265,25 @@
     - ml
     - neuroscience
     - commentary
+
+# ================================================
+# Drug discovery
+# ================================================
+- title: A landmark in drug discovery based on complex natural product synthesis
+  url: https://www.nature.com/articles/s41598-019-45001-9
+  journal: Nature Scientific Reports
+  year: 2019
+  tags:
+    - drug discovery
+    - synthesis
+
+# ===============================
+# Bioinformatics
+# ===============================
+- title: A universal SNP and small-indel variant caller using deep neural networks
+  url: https://www.nature.com/articles/nbt.4235
+  journal: Nature Biotechnology
+  year: 2018
+  tags:
+    - bioinformatics
+    - ml

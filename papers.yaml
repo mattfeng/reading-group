@@ -49,6 +49,42 @@
   year: 2020
   tags:
     - cancer
+- title: Passenger Hotspot Mutations in Cancer
+  url: https://www.cell.com/cancer-cell/fulltext/S1535-6108(19)30370-8
+  anno: Some commonly known "driver" mutations are actually passenger mutations.
+  journal: Cancer Cell
+  year: 2019
+  tags:
+    - cancer
+- title: Pan-cancer whole-genome analyses of metastatic solid tumours
+  url: https://www.nature.com/articles/s41586-019-1689-y
+  anno: WGS of metastatic cancers and paired normal tissue.
+  journal: Nature
+  year: 2019
+  tags:
+    - cancer
+- title: "OncoKB: A Precision Oncology Knowledge Base"
+  url: https://ascopubs.org/doi/10.1200/PO.17.00011
+  journal: JCO Precision Oncology
+  year: 2017
+  tags:
+    - cancer
+    - database
+- title: "PreMedKB: an integrated precision medicine knowledgebase for interpreting relationships between diseases, genes, variants and drugs"
+  url: https://academic.oup.com/nar/article/47/D1/D1090/5165264
+  journal: Nucleic Acids Research
+  year: 2018
+  tags:
+    - cancer
+    - database
+- title: CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
+  url: https://www.nature.com/articles/ng.3774
+  journal: Nature Genetics
+  year: 2017
+  tags:
+    - cancer
+    - database
+
 
 # =======================================
 # Cell-based therapies

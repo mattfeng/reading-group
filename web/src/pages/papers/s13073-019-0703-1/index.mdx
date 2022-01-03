@@ -1,4 +1,258 @@
 # Molecular profiling for precision cancer therapies (2020)
 
 ## Overview
-We describe novel molecular characterization strategies beyond tumor DNA sequencing, such as transcriptomics, immunophenotyping, epigenetic profiling, and single-cell analyses. We also review current and potential applications of liquid biopsies to evaluate blood-based biomarkers, such as circulating tumor cells and circulating nucleic acids. Last, lessons learned from the existing limitations of genotype-derived therapies provide insights into ways to expand precision medicine beyond genomics.
+1. describe novel molecular characterization strategies beyond tumor DNA sequencing
+    - transcriptomics
+    - immunophenotyping
+    - epigenetic profiling
+    - single-cell analyses
+2. review current and potential applications of liquid biopsies to evaluate blood-based biomarkers such as circulating tumor cells and circulating nucleic acids
+3. lessons learned from the existing limitations of genotype-derived therapies  and ways to expand precision medicine beyond genomics
+
+## FDA/EMA approved biomarkers and matching targeted drugs
+
+<table>
+<thead>
+  <tr>
+    <th>Gene/protein</th>
+    <th>Anticancer agent</th>
+    <th>Indications</th>
+    <th>Biomarker</th>
+    <th>Routine testing</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>ALK</td>
+    <td>Crizotinib, ceritinib, alectinib, lorlatinib, brigatinib</td>
+    <td>NSCLC</td>
+    <td>ALK translocation</td>
+    <td>FISH, IHC</td>
+  </tr>
+  <tr>
+    <td>Androgen receptor (AR)</td>
+    <td>Abiraterone, enzalutamide, dalurotamide, apalutamide</td>
+    <td>Prostate cancer</td>
+    <td>AR expression</td>
+    <td>IHC</td>
+  </tr>
+  <tr>
+    <td>BCL-2</td>
+    <td>Venetoclax</td>
+    <td>Chronic myeloid leukemia</td>
+    <td>BCL-2 protein expression, BCL-2 amplification/translocation</td>
+    <td>IHC, FISH</td>
+  </tr>
+  <tr>
+    <td>BCR/ABL</td>
+    <td>Imatinib, dasatinib, nilotinib, bosutinib, ponatinib</td>
+    <td>Chronic myeloid leukemia</td>
+    <td>BCR/ABL1 fusion</td>
+    <td>IHC (FISH, DNA/RNA sequencing), PCR1</td>
+  </tr>
+  <tr>
+    <td>BRAF</td>
+    <td>Dabrafenib+trametinib, vemurafenib+cobimetinib, encorafenib+binimetinib</td>
+    <td>Melanoma, NSCLC, anaplastic thyroid cancer, hairy cell leukemia</td>
+    <td>BRAF V600E/K mutations</td>
+    <td>IHC, PCR1, DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>BRCA</td>
+    <td>Olaparib, talazoparib, rucaparib</td>
+    <td>Breast cancer, ovarian cancer</td>
+    <td>Germline/somatic BRCA 1/2 mutations</td>
+    <td>DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>C-KIT, PDGFR</td>
+    <td>Imatinib</td>
+    <td>Gastrointestinal stromal tumor</td>
+    <td>c-KIT Exon 9 and 11 mutations, PDGFR mutations</td>
+    <td>IHC, DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>PDGFRB</td>
+    <td>Imatinib</td>
+    <td>Myelodysplastic/myeloproliferative syndromes</td>
+    <td>PDGFRB rearrangement</td>
+    <td>FISH</td>
+  </tr>
+  <tr>
+    <td>Estrogen/progesterone receptors (ER/PR)</td>
+    <td>Tamoxifen, raloxifene, fulvestrant, toremifine</td>
+    <td>Breast cancer</td>
+    <td>ER/PR expression</td>
+    <td>IHC</td>
+  </tr>
+  <tr>
+    <td>erBB2/HER-2</td>
+    <td>Trastuzumab, pertuzumab, ado-trastuzumab, emtansine, neratinib</td>
+    <td>Breast cancer, gastric cancer</td>
+    <td>HER-2 protein expression, HER-2 amplification</td>
+    <td>IHC, FISH</td>
+  </tr>
+  <tr>
+    <td rowspan="2">EGFR</td>
+    <td>Gefitinib, erlotinib, afatinib, dacomitinib</td>
+    <td rowspan="2">NSCLC</td>
+    <td>EGFR exon 19 deletion, exon 21 L858R mutation</td>
+    <td rowspan="2">DNA sequencing, PCR1</td>
+  </tr>
+  <tr>
+    <td>Osimertinib</td>
+    <td>EGFR T790M mutation</td>
+  </tr>
+  <tr>
+    <td>FGFR2/3</td>
+    <td>Erdafitinib</td>
+    <td>Bladder cancer</td>
+    <td>FGFR3 mutations, FGFR2/3 fusions</td>
+    <td>DNA sequencing, FISH</td>
+  </tr>
+  <tr>
+    <td>FLT3</td>
+    <td>Midostaurin, gilteritinib</td>
+    <td>Acute myeloid leukemia</td>
+    <td>FLT3 mutations</td>
+    <td>DNA sequencing, PCR1</td>
+  </tr>
+  <tr>
+    <td>IDH1/2</td>
+    <td>Ivosidenib, enasidenib</td>
+    <td>Acute myeloid leukemia</td>
+    <td>IDH1/2 mutations</td>
+    <td>IHC, DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>MET</td>
+    <td>Crizotinib (breakthrough designation)</td>
+    <td>NSCLC</td>
+    <td>MET amplification, MET exon 14 alterations</td>
+    <td>FISH, DNA/RNA sequencing</td>
+  </tr>
+  <tr>
+    <td rowspan="2">MSI-H or dMMR</td>
+    <td>Pembrolizumab</td>
+    <td>MSI-H or dMMR solid tumors</td>
+    <td rowspan="2">MLH1, MSH2, MSH6, PMS2 protein expression, MSI high</td>
+    <td rowspan="2">IHC, DNA sequencing, PCR1</td>
+  </tr>
+  <tr>
+    <td>Nivolumab and ipilimumab</td>
+    <td>Colorectal cancer</td>
+  </tr>
+  <tr>
+    <td>NTRK</td>
+    <td>Larotrectinib, entrectinib</td>
+    <td>Solid tumors with NTRK fusions</td>
+    <td>NTRK protein expression, NTRK fusion</td>
+    <td>IHC, FISH, DNA/RNA sequencing</td>
+  </tr>
+  <tr>
+    <td>PI3KCA</td>
+    <td>Alpelisib</td>
+    <td>Breast cancer</td>
+    <td>PI3KCA mutation</td>
+    <td>DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>PI3K (alpha and delta)</td>
+    <td>Copanlisib</td>
+    <td>Follicular lymphoma</td>
+    <td>PI3K mutation</td>
+    <td>DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>PI3K (delta and gamma)</td>
+    <td>Duvelisib</td>
+    <td>Chronic lymphocytic leukemia, small lymphocytic lymphoma</td>
+    <td>PI3K mutation</td>
+    <td>DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>RAS (negative predictor)</td>
+    <td>Cetuximab, panitumumab</td>
+    <td>Colorectal cancer</td>
+    <td>KRAS/NRAS wildtype</td>
+    <td>DNA sequencing</td>
+  </tr>
+  <tr>
+    <td>RET</td>
+    <td>LOXO-292 (breakthrough designation)</td>
+    <td>NSCLC, medullary thyroid cancer</td>
+    <td>RET fusion, RET mutation</td>
+    <td>FISH, DNA/RNA sequencing</td>
+  </tr>
+  <tr>
+    <td>ROS1</td>
+    <td>Crizotinib, entrectinib</td>
+    <td>NSCLC</td>
+    <td>ROS translocation</td>
+    <td>FISH, DNA/RNA sequencing</td>
+  </tr>
+</tbody>
+</table>
+
+## Current and emerging molecular approaches to enable precision medicine
+- conventional tests
+  - immunohistochemistry (IHC)
+  - fluorescence in situ hybridization (FISH)
+    - gold standard for detecting DNA rearrangements
+- NGS tests
+
+### NGS: Targeted gene panels vs. whole exome vs. whole genome sequencing
+- targeted gene panels (currently) preferred in clinical settings
+  - better depth of coverage
+  - faster turnaround
+  - more clinically relevant data
+- setbacks
+  - **driver** vs. **passenger** mutations
+
+### Liquid biopsies
+- blood, urine, peritoneal fluid, cerebrospinal fluid
+- look for
+  - CTCs
+  - ctDNA
+  - RNA
+  - protein
+  - metabolites
+- clinical uses
+  - monitoring persistence of radiological undetectable tumors
+  - prediction of recurrence
+  - monitoring of treatment response
+  - early detection of resistance mechanisms
+  - assessment of tumor burden
+  - tracking clonal evolution of tumors
+  - dynamic evaluation of immune biomarkers such as PD-L1 expression and tumor mutation burden
+
+### Single cell analysis
+- single-cell analysis of CTC
+  - multi-omic assessment
+  - generation of patient-specific tumor models (organoids and xenografts)
+  - viable CTCs are implicated in metastasis, may detect actionable aberrations
+
+### Nascent biomarkers
+- circulating-free miRNA
+  - need for standardized collection techniques in order for tests to be clinically useful
+
+## Taking actions on genomic results
+- databases with pre-clinical biological and functional data
+  - TCGA
+  - International Cancer Genome Consortium (ICGC)
+- databases with most updated evidence on the clinical benefit obtained from matched drugs that can be used to drive variant-specific treatment recommendations
+  - OncoKB
+  - MyCancerGenome
+  - CIViC
+- Shift towards "pan-cancer" biomarker indications for therapeutics
+
+## Ways to expand precision medicine
+- Transcriptomics increases actionability, but efficacy of therapies stayed the same: 20 to 30%.
+
+### Current limitations
+- lack of clinical trial availability
+- cost of targeted drugs
+
+### Current directions
+- increased trial opportunities
+  - more flexible trial structure with "master protocols" that can be tuned per patient

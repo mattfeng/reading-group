@@ -42,6 +42,13 @@
   tags:
     - clinical
     - cancer
+- title: Molecular profiling for precision cancer therapies
+  url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0703-1
+  summary: s13073-019-0703-1
+  journal: Genome Medicine
+  year: 2020
+  tags:
+    - cancer
 
 # =======================================
 # Cell-based therapies

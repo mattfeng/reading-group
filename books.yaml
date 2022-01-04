@@ -64,3 +64,20 @@ statistics:
         - Garrett Grolemund
       year: 2016
       notes: r4ds
+
+python:
+  display: Python
+  books:
+    - title: "Intuitive Python: Productive Development for Projects that Last"
+      author: David Muller
+      year: 2021
+    - title: Practices of the Python Pro
+      author: Dane Hillard
+      year: 2019
+      
+graphs:
+  display: Graphs
+  books:
+    - title: Graph Representation Learning
+      author: William L. Hamilton
+      year: 2020

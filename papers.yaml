@@ -92,6 +92,17 @@
     - cancer
     - checkpoint
 
+# ==============================
+# Clincial oncology
+# ==============================
+- title: Comparison of 2 Commercially Available Next-Generation Sequencing Platforms in Oncology
+  url: https://jamanetwork.com/journals/jamaoncology/article-abstract/2593039
+  anno: Compares the consensus between two commericial tumor profiling tests.
+  journal: JAMA Oncology
+  year: 2017
+  tags:
+    - clinical oncology
+
 # =======================================
 # Cell-based therapies
 # =======================================
@@ -286,4 +297,15 @@
   year: 2018
   tags:
     - bioinformatics
+    - ml
+
+# ================================
+# Datasets
+# ================================
+- title: The METLIN small molecule dataset for machine learning-based retention time prediction
+  url: https://www.nature.com/articles/s41467-019-13680-7
+  journal: Nature Communications
+  year: 2019
+  tags:
+    - dataset
     - ml

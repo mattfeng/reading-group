@@ -1,311 +1,311 @@
-# ==========================
-# Cancer
-# ==========================
-- title: Intermittent fasting in the prevention and treatment of cancer
-  url: https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21694
-  tags:
-    - cancer
-- title: Multi-input RNAi-based Logic Circuit for Identification of Specific Cancer Cells
-  url: https://www.science.org/doi/10.1126/science.1205527
-  anno: The first paper to describe a circuit that could distinguish malignant and non-malignant cells based on intracellular miRNA expression profiles to specific activity in diseased cells.
-  tags:
-    - cancer
-- title: A decade of cell therapy clinical trials
-  url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
-  tags:
-    - cancer
-    - cell-based therapy
-- title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
-  url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
-  anno: Clinical trial of CAR-T cells for treating CLL.
-  tags:
-    - cancer
-    - cell-based therapy
-    - CAR-T cells
-    - clinical trial
-- title: T Cells with Chimeric Antigen Receptors Have Potent Antitumor Effects and Can Establish Memory in Patients with Advanced Leukemia
-  url: https://www.science.org/doi/10.1126/scitranslmed.3002842
-  tags:
-    - cancer
-    - cell-based therapy
-    - CAR-T cells
-- title: "Progress and potential: The Cancer Moonshot"
-  url: https://www.cell.com/cancer-cell/fulltext/S1535-6108(21)00223-3
-  journal: Cancer Cell
-  year: 2021
-  tags:
-    - cancer
-- title: "Clinical Tumor Sequencing: Opportunities and Challenges for Precision Cancer Medicine"
-  url: https://ascopubs.org/doi/full/10.14694/EdBook_AM.2015.35.e175
-  journal: ASCO Educational Book
-  year: 2015
-  tags:
-    - clinical
-    - cancer
-- title: Molecular profiling for precision cancer therapies
-  url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0703-1
-  summary: s13073-019-0703-1
-  journal: Genome Medicine
-  year: 2020
-  tags:
-    - cancer
-- title: Passenger Hotspot Mutations in Cancer
-  url: https://www.cell.com/cancer-cell/fulltext/S1535-6108(19)30370-8
-  anno: Some commonly known "driver" mutations are actually passenger mutations.
-  journal: Cancer Cell
-  year: 2019
-  tags:
-    - cancer
-- title: Pan-cancer whole-genome analyses of metastatic solid tumours
-  url: https://www.nature.com/articles/s41586-019-1689-y
-  anno: WGS of metastatic cancers and paired normal tissue.
-  journal: Nature
-  year: 2019
-  tags:
-    - cancer
-- title: "OncoKB: A Precision Oncology Knowledge Base"
-  url: https://ascopubs.org/doi/10.1200/PO.17.00011
-  journal: JCO Precision Oncology
-  year: 2017
-  tags:
-    - cancer
-    - database
-- title: "PreMedKB: an integrated precision medicine knowledgebase for interpreting relationships between diseases, genes, variants and drugs"
-  url: https://academic.oup.com/nar/article/47/D1/D1090/5165264
-  journal: Nucleic Acids Research
-  year: 2018
-  tags:
-    - cancer
-    - database
-- title: CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
-  url: https://www.nature.com/articles/ng.3774
-  journal: Nature Genetics
-  year: 2017
-  tags:
-    - cancer
-    - database
-- title: Enhancement of Antitumor Immunity by CTLA-4 blockade
-  url: https://www.science.org/doi/10.1126/science.271.5256.1734
-  journal: Science
-  year: 1996
-  tags:
-    - cancer
-    - checkpoint
+cancer:
+  display: Cancer
+  papers:
+    - title: Intermittent fasting in the prevention and treatment of cancer
+      url: https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21694
+      tags:
+        - cancer
+    - title: Multi-input RNAi-based Logic Circuit for Identification of Specific Cancer Cells
+      url: https://www.science.org/doi/10.1126/science.1205527
+      anno: The first paper to describe a circuit that could distinguish malignant and non-malignant cells based on intracellular miRNA expression profiles to specific activity in diseased cells.
+      tags:
+        - cancer
+    - title: A decade of cell therapy clinical trials
+      url: https://www.futuremedicine.com/doi/full/10.2217/rme.12.45
+      tags:
+        - cancer
+        - cell-based therapy
+    - title: Chimeric Antigen Receptor-Modified T Cells in Chronic Lymphoid Leukemia
+      url: https://www.nejm.org/doi/10.1056/NEJMoa1103849
+      anno: Clinical trial of CAR-T cells for treating CLL.
+      tags:
+        - cancer
+        - cell-based therapy
+        - CAR-T cells
+        - clinical trial
+    - title: T Cells with Chimeric Antigen Receptors Have Potent Antitumor Effects and Can Establish Memory in Patients with Advanced Leukemia
+      url: https://www.science.org/doi/10.1126/scitranslmed.3002842
+      tags:
+        - cancer
+        - cell-based therapy
+        - CAR-T cells
+    - title: "Progress and potential: The Cancer Moonshot"
+      url: https://www.cell.com/cancer-cell/fulltext/S1535-6108(21)00223-3
+      journal: Cancer Cell
+      year: 2021
+      tags:
+        - cancer
+    - title: "Clinical Tumor Sequencing: Opportunities and Challenges for Precision Cancer Medicine"
+      url: https://ascopubs.org/doi/full/10.14694/EdBook_AM.2015.35.e175
+      journal: ASCO Educational Book
+      year: 2015
+      tags:
+        - clinical
+        - cancer
+    - title: Molecular profiling for precision cancer therapies
+      url: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0703-1
+      summary: s13073-019-0703-1
+      journal: Genome Medicine
+      year: 2020
+      tags:
+        - cancer
+    - title: Passenger Hotspot Mutations in Cancer
+      url: https://www.cell.com/cancer-cell/fulltext/S1535-6108(19)30370-8
+      anno: Some commonly known "driver" mutations are actually passenger mutations.
+      journal: Cancer Cell
+      year: 2019
+      tags:
+        - cancer
+    - title: Pan-cancer whole-genome analyses of metastatic solid tumours
+      url: https://www.nature.com/articles/s41586-019-1689-y
+      anno: WGS of metastatic cancers and paired normal tissue.
+      journal: Nature
+      year: 2019
+      tags:
+        - cancer
+    - title: "OncoKB: A Precision Oncology Knowledge Base"
+      url: https://ascopubs.org/doi/10.1200/PO.17.00011
+      journal: JCO Precision Oncology
+      year: 2017
+      tags:
+        - cancer
+        - database
+    - title: "PreMedKB: an integrated precision medicine knowledgebase for interpreting relationships between diseases, genes, variants and drugs"
+      url: https://academic.oup.com/nar/article/47/D1/D1090/5165264
+      journal: Nucleic Acids Research
+      year: 2018
+      tags:
+        - cancer
+        - database
+    - title: CIViC is a community knowledgebase for expert crowdsourcing the clinical interpretation of variants in cancer
+      url: https://www.nature.com/articles/ng.3774
+      journal: Nature Genetics
+      year: 2017
+      tags:
+        - cancer
+        - database
+    - title: Enhancement of Antitumor Immunity by CTLA-4 blockade
+      url: https://www.science.org/doi/10.1126/science.271.5256.1734
+      journal: Science
+      year: 1996
+      tags:
+        - cancer
+        - checkpoint
 
-# ==============================
-# Clincial oncology
-# ==============================
-- title: Comparison of 2 Commercially Available Next-Generation Sequencing Platforms in Oncology
-  url: https://jamanetwork.com/journals/jamaoncology/article-abstract/2593039
-  anno: Compares the consensus between two commericial tumor profiling tests.
-  journal: JAMA Oncology
-  year: 2017
-  tags:
-    - clinical oncology
+clinical_oncology:
+  display: Clinical oncology
+  papers:
+    - title: Comparison of 2 Commercially Available Next-Generation Sequencing Platforms in Oncology
+      url: https://jamanetwork.com/journals/jamaoncology/article-abstract/2593039
+      anno: Compares the consensus between two commericial tumor profiling tests.
+      journal: JAMA Oncology
+      year: 2017
+      tags:
+        - clinical oncology
 
-# =======================================
-# Cell-based therapies
-# =======================================
-- title: "Cell-Based Therapeutics: The Next Pillar of Medicine"
-  url: https://www.science.org/doi/10.1126/scitranslmed.3005568
-  anno: Lists cancer-specific biomarkers.
-  summary: scitranslmed.3005568
-  tags:
-    - overview
-    - cell-based therapy
-- title: Engineering living therapeutics with synthetic biology
-  url: https://www.nature.com/articles/s41573-021-00285-3
-  anno: Overview of synthetic biology engineered, cell-based therapeutics.
-  year: 2021
-  summary: s41573-021-00285-3
-  tags:
-    - overview
-    - cell-based therapy
-- title: The emerging landscape of immune cell therapies
-  url: https://www.cell.com/cell/fulltext/S0092-8674(20)30263-4
-  anno: Discusses kill-switches as a response to cytokine release syndrome.
-  year: 2020
-  tags:
-    - overview
-    - immunotherapy
-- title: Programming gene and engineered-cell therapies with synthetic biology
-  url: https://www.science.org/doi/10.1126/science.aad1067
-  anno: Discusses use of multiple sensors before activating therapies.
-  year: 2018
-  journal: Science
-  tags:
-    - cell-based therapy
-- title: Safety and feasibility of anti-CD19 CAR T cells with fully human binding domains in patients with B-cell lymphoma
-  url: https://www.nature.com/articles/s41591-019-0737-3
-  year: 2020
-  anno: Attempts to reduce CAR-T side effects (neurological damage).
-  journal: Nature Medicine
-  tags:
-    - immunotherapy
+cell_based_therapies:
+  display: Cell Based Therapeutics
+  papers:
+    - title: "Cell-Based Therapeutics: The Next Pillar of Medicine"
+      url: https://www.science.org/doi/10.1126/scitranslmed.3005568
+      anno: Lists cancer-specific biomarkers.
+      summary: scitranslmed.3005568
+      tags:
+        - overview
+        - cell-based therapy
+    - title: Engineering living therapeutics with synthetic biology
+      url: https://www.nature.com/articles/s41573-021-00285-3
+      anno: Overview of synthetic biology engineered, cell-based therapeutics.
+      year: 2021
+      summary: s41573-021-00285-3
+      tags:
+        - overview
+        - cell-based therapy
+    - title: The emerging landscape of immune cell therapies
+      url: https://www.cell.com/cell/fulltext/S0092-8674(20)30263-4
+      anno: Discusses kill-switches as a response to cytokine release syndrome.
+      year: 2020
+      tags:
+        - overview
+        - immunotherapy
+    - title: Programming gene and engineered-cell therapies with synthetic biology
+      url: https://www.science.org/doi/10.1126/science.aad1067
+      anno: Discusses use of multiple sensors before activating therapies.
+      year: 2018
+      journal: Science
+      tags:
+        - cell-based therapy
+    - title: Safety and feasibility of anti-CD19 CAR T cells with fully human binding domains in patients with B-cell lymphoma
+      url: https://www.nature.com/articles/s41591-019-0737-3
+      year: 2020
+      anno: Attempts to reduce CAR-T side effects (neurological damage).
+      journal: Nature Medicine
+      tags:
+        - immunotherapy
 
-# ===================================
-# IBD
-# ===================================
-- title: "Microbiota-targeted therapies: an ecological perspective"
-  url: https://www.science.org/doi/10.1126/scitranslmed.3004183
-  year: 2012
-  tags:
-    - IBD
-- title: "Community Health Care: Therapeutic Opportunities in the Human Microbiome"
-  url: https://www.science.org/doi/10.1126/scitranslmed.3001626
-  year: 2011
-  tags:
-    - IBD
-- title: Therapeutic modulation of microbiota-host metabolic interactions
-  url: https://www.science.org/doi/10.1126/scitranslmed.3004244
-  year: 2012
-  tags:
-    - IBD
-- title: Duodenal infusion of donor feces for recurrent Clostridium difficile
-  url: https://www.nejm.org/doi/10.1056/NEJMoa1205037
-  year: 2013
-  journal: NEJM
-  tags:
-    - IBD
+ibd:
+  display: IBD and Microbiome
+  papers:
+    - title: "Microbiota-targeted therapies: an ecological perspective"
+      url: https://www.science.org/doi/10.1126/scitranslmed.3004183
+      year: 2012
+      tags:
+        - IBD
+    - title: "Community Health Care: Therapeutic Opportunities in the Human Microbiome"
+      url: https://www.science.org/doi/10.1126/scitranslmed.3001626
+      year: 2011
+      tags:
+        - IBD
+    - title: Therapeutic modulation of microbiota-host metabolic interactions
+      url: https://www.science.org/doi/10.1126/scitranslmed.3004244
+      year: 2012
+      tags:
+        - IBD
+    - title: Duodenal infusion of donor feces for recurrent Clostridium difficile
+      url: https://www.nejm.org/doi/10.1056/NEJMoa1205037
+      year: 2013
+      journal: NEJM
+      tags:
+        - IBD
 
-# =====================================
-# Synbio foundational tools
-# =====================================
-- title: De novo DNA synthesis using polymerase-nucleotide conjugates
-  url: https://www.nature.com/articles/nbt.4173
-  year: 2018
-  journal: Nature Biotechnology
-  tags:
-    - synbio
-- title: "Large-scale de novo DNA synthesis: technologies and applications"
-  url: https://www.nature.com/articles/nmeth.2918
-  year: 2014
-  journal: Nature Methods
-  tags:
-    - synbio
-- title: Toward an orthogonal central dogma
-  url: https://www.nature.com/articles/nchembio.2554
-  year: 2018
-  anno: Discusses why transplanting genes across organisms works.
-  journal: Nature Chemical Biology
-  tags:
-    - synbio
-    - commentary
+synbio:
+  display: Synthetic biology
+  papers:
+    - title: De novo DNA synthesis using polymerase-nucleotide conjugates
+      url: https://www.nature.com/articles/nbt.4173
+      year: 2018
+      journal: Nature Biotechnology
+      tags:
+        - synbio
+    - title: "Large-scale de novo DNA synthesis: technologies and applications"
+      url: https://www.nature.com/articles/nmeth.2918
+      year: 2014
+      journal: Nature Methods
+      tags:
+        - synbio
+    - title: Toward an orthogonal central dogma
+      url: https://www.nature.com/articles/nchembio.2554
+      year: 2018
+      anno: Discusses why transplanting genes across organisms works.
+      journal: Nature Chemical Biology
+      tags:
+        - synbio
+        - commentary
 
-# =======================
-# Organ-on-a-chip
-# =======================
-- title: On-chip recapitulation of clinical bone marrow toxicities and patient-specific pathophysiology
-  year: 2020
-  url: https://www.nature.com/articles/s41551-019-0495-z
-  journal: Nature Biomedical Engineering
-  citations: 88
+organ_on_chip:
+  display: Organ on a chip
+  papers:
+    - title: On-chip recapitulation of clinical bone marrow toxicities and patient-specific pathophysiology
+      year: 2020
+      url: https://www.nature.com/articles/s41551-019-0495-z
+      journal: Nature Biomedical Engineering
+      citations: 88
 
-# ============================================
-# Tissue engineering and regenerative medicine
-# ============================================
-- title: "Bio-Fabrication: Convergence of 3D Bioprinting and Nano-Biomaterials in Tissue Engineering and Regenerative Medicine"
-  url: https://www.frontiersin.org/articles/10.3389/fbioe.2020.00326/full
-  journal: Front. Bioeng. Biotechnol.
-  year: 2020
-  tags:
-    - 3d printing
-    - TERM
+tissue_engineering:
+  display: Tissue engineering and regenerative medicine
+  papers:
+    - title: "Bio-Fabrication: Convergence of 3D Bioprinting and Nano-Biomaterials in Tissue Engineering and Regenerative Medicine"
+      url: https://www.frontiersin.org/articles/10.3389/fbioe.2020.00326/full
+      journal: Front. Bioeng. Biotechnol.
+      year: 2020
+      tags:
+        - 3d printing
+        - TERM
 
-# ===================
-# Machine learning
-# ===================
-- title: Designing Network Design Spaces
-  url: https://openaccess.thecvf.com/content_CVPR_2020/papers/Radosavovic_Designing_Network_Design_Spaces_CVPR_2020_paper.pdf
-  anno: "RegNets: efficient networks in training and inference."
-  journal: CVPR
-  year: 2020
-  tags:
-    - ml
-- title: Extracting and Composing Robust Features with Denoising Autoencoders
-  url: https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf
-  journal: ICML
-  year: 2008
-  tags:
-    - ml
-    - denoising autoencoder
-- title: Natural Language Processing (Almost) from Scratch
-  url: https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf
-  journal: JMLR
-  year: 2011
-  anno: Denoising autoencoders in NLP.
-  tags:
-    - ml
-    - denoising autoencoder
-    - nlp
-- title: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
-  url: https://arxiv.org/abs/2006.09882
-  journal: NeurIPS
-  anno: Introduces SwAV online algorithm.
-  year: 2020
-  tags:
-    - ml
-    - non-contrastive energy model
-- title: "Bootstrap your own latent: A new approach to self-supervised Learning"
-  url: https://arxiv.org/abs/2006.07733
-  journal: NeurIPS
-  year: 2020
-  tags:
-    - ml
-    - non-contrastive energy model
-- title: Growing Neural Cellular Automata
-  url: https://distill.pub/2020/growing-ca/
-  journal: Distill
-  year: 2020
-  tags:
-    - ml
-    - self-organizing
-    - morphogenetic engineering
-- title: Variational Neural Cellular Automata
-  url: https://openreview.net/forum?id=7fFO4cMBx_9
-  year: 2021
-  tags:
-    - ml
-    - self-organizing
-    - morphogenetic engineering
-- title: A critique of pure learning and what artificial neural networks can learn from animal brains
-  url: https://www.nature.com/articles/s41467-019-11786-6
-  anno: The "genomic bottleneck" in developmental biology.
-  year: 2019
-  tags:
-    - ml
-    - neuroscience
-    - commentary
+ml:
+  display: Machine learning
+  papers:
+    - title: Designing Network Design Spaces
+      url: https://openaccess.thecvf.com/content_CVPR_2020/papers/Radosavovic_Designing_Network_Design_Spaces_CVPR_2020_paper.pdf
+      anno: "RegNets: efficient networks in training and inference."
+      journal: CVPR
+      year: 2020
+      tags:
+        - ml
+    - title: Extracting and Composing Robust Features with Denoising Autoencoders
+      url: https://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf
+      journal: ICML
+      year: 2008
+      tags:
+        - ml
+        - denoising autoencoder
+    - title: Natural Language Processing (Almost) from Scratch
+      url: https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf
+      journal: JMLR
+      year: 2011
+      anno: Denoising autoencoders in NLP.
+      tags:
+        - ml
+        - denoising autoencoder
+        - nlp
+    - title: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+      url: https://arxiv.org/abs/2006.09882
+      journal: NeurIPS
+      anno: Introduces SwAV online algorithm.
+      year: 2020
+      tags:
+        - ml
+        - non-contrastive energy model
+    - title: "Bootstrap your own latent: A new approach to self-supervised Learning"
+      url: https://arxiv.org/abs/2006.07733
+      journal: NeurIPS
+      year: 2020
+      tags:
+        - ml
+        - non-contrastive energy model
+    - title: Growing Neural Cellular Automata
+      url: https://distill.pub/2020/growing-ca/
+      journal: Distill
+      year: 2020
+      tags:
+        - ml
+        - self-organizing
+        - morphogenetic engineering
+    - title: Variational Neural Cellular Automata
+      url: https://openreview.net/forum?id=7fFO4cMBx_9
+      year: 2021
+      tags:
+        - ml
+        - self-organizing
+        - morphogenetic engineering
+    - title: A critique of pure learning and what artificial neural networks can learn from animal brains
+      url: https://www.nature.com/articles/s41467-019-11786-6
+      anno: The "genomic bottleneck" in developmental biology.
+      year: 2019
+      tags:
+        - ml
+        - neuroscience
+        - commentary
 
-# ================================================
-# Drug discovery
-# ================================================
-- title: A landmark in drug discovery based on complex natural product synthesis
-  url: https://www.nature.com/articles/s41598-019-45001-9
-  journal: Nature Scientific Reports
-  year: 2019
-  tags:
-    - drug discovery
-    - synthesis
+drug_discovery:
+  display: Drug discovery
+  papers:
+    - title: A landmark in drug discovery based on complex natural product synthesis
+      url: https://www.nature.com/articles/s41598-019-45001-9
+      journal: Nature Scientific Reports
+      year: 2019
+      tags:
+        - drug discovery
+        - synthesis
 
-# ===============================
-# Bioinformatics
-# ===============================
-- title: A universal SNP and small-indel variant caller using deep neural networks
-  url: https://www.nature.com/articles/nbt.4235
-  journal: Nature Biotechnology
-  year: 2018
-  tags:
-    - bioinformatics
-    - ml
+bioinf:
+  display: Bioinformatics
+  papers:
+    - title: A universal SNP and small-indel variant caller using deep neural networks
+      url: https://www.nature.com/articles/nbt.4235
+      journal: Nature Biotechnology
+      year: 2018
+      tags:
+        - bioinformatics
+        - ml
 
-# ================================
-# Datasets
-# ================================
-- title: The METLIN small molecule dataset for machine learning-based retention time prediction
-  url: https://www.nature.com/articles/s41467-019-13680-7
-  journal: Nature Communications
-  year: 2019
-  tags:
-    - dataset
-    - ml
+datasets:
+  display: Datasets
+  papers:
+    - title: The METLIN small molecule dataset for machine learning-based retention time prediction
+      url: https://www.nature.com/articles/s41467-019-13680-7
+      journal: Nature Communications
+      year: 2019
+      tags:
+        - dataset
+        - ml

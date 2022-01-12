@@ -149,24 +149,24 @@ ibd:
     - title: "Microbiota-targeted therapies: an ecological perspective"
       url: https://www.science.org/doi/10.1126/scitranslmed.3004183
       year: 2012
-      tags:
-        - IBD
     - title: "Community Health Care: Therapeutic Opportunities in the Human Microbiome"
       url: https://www.science.org/doi/10.1126/scitranslmed.3001626
       year: 2011
-      tags:
-        - IBD
     - title: Therapeutic modulation of microbiota-host metabolic interactions
       url: https://www.science.org/doi/10.1126/scitranslmed.3004244
       year: 2012
-      tags:
-        - IBD
     - title: Duodenal infusion of donor feces for recurrent Clostridium difficile
       url: https://www.nejm.org/doi/10.1056/NEJMoa1205037
       year: 2013
       journal: NEJM
-      tags:
-        - IBD
+    - title: "Therapeutic Opportunities in Inflammatory Bowel Disease: Mechanistic Dissection of Host-Microbiome Relationships"
+      url: https://www.cell.com/cell/fulltext/S0092-8674(19)30845-1
+      year: 2019
+      journal: Cell
+    - title: Cellular and inter-cellular rewiring of the human colon during ulcerative colitis
+      url: https://www.cell.com/cell/fulltext/S0092-8674(19)30732-9
+      year: 2019
+      journal: Cell
 
 synbio:
   display: Synthetic biology

@@ -7,14 +7,30 @@ import Paper from "../components/paper"
 import axios from "axios"
 import * as styles from "../styles/index.module.scss"
 
-const Papers = ({ papers }) => {
-  return (
-    <div>
-      {papers?.map(paper => (
-        <Paper key={paper.title} paper={paper} />
-      ))}
-    </div>
-  )
+const Papers = ({ allPapers }) => {
+  const makeSections = () => {
+    let sections = []
+
+    for (const [topic, values] of Object.entries(allPapers)) {
+      const { display, papers } = values
+      sections.push(
+        <div>
+          <h3>{display}</h3>
+          <ul>
+            {papers?.map(paper => (
+              <li key={paper.title}>
+                <Paper paper={paper} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      )
+    }
+    return sections
+  }
+
+  const sections = makeSections()
+  return <div>{sections}</div>
 }
 
 const Journals = ({ allJournals, impactFactor }) => {
@@ -130,7 +146,7 @@ const IndexPage = () => {
         <Journals allJournals={journals} impactFactor={impactFactor} />
 
         <h2>Papers</h2>
-        <Papers papers={papers} />
+        <Papers allPapers={papers} />
 
         <h2>Books</h2>
         <Books allBooks={books} />

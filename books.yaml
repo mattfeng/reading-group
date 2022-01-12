@@ -86,7 +86,7 @@ brain:
   display: Brain and Neuroscience
   books:
     - title: "Nolte's The Human Brain: An Introduction to its Functional Anatomy, 7th edition"
-      authors:
+      author:
         - Todd Vanderah
         - Douglas Gould
       year: 2016

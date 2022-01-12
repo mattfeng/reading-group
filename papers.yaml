@@ -168,6 +168,22 @@ ibd:
       url: https://www.cell.com/cell/fulltext/S0092-8674(19)30732-9
       year: 2019
       journal: Cell
+    - title: Multi-omics of the gut microbial ecosystem in inflammatory bowel diseases
+      url: https://www.nature.com/articles/s41586-019-1237-9
+      journal: Nature
+      year: 2019
+      tags:
+        - dysbiotic gut microbiome
+        - j.cell.2019.07.045
+    - title: Gut microbiota composition and functional changes in inflammatory bowel disease and irritable bowel syndrome
+      tags:
+        - dysbiotic gut microbiome
+        - j.cell.2019.07.045
+    - title: Microbial genes and pathways in inflammatory bowel disease
+      tags:
+        - dysbiotic gut microbiome
+        - j.cell.2019.07.045
+
 
 synbio:
   display: Synthetic biology

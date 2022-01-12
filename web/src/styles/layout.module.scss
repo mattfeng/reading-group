@@ -5,15 +5,19 @@ $display: "Playfair Display", "Times", serif;
 $serif: "EB Garamond", "Times", serif;
 $sans: "Source Sans Pro", sans-serif;
 
+html {
+    font-size: 14pt;
+}
+
 .layoutContainer {
     font-family: $serif;
 
-    max-width: min(80%, 80ch);
-    min-width: min(80%, 80ch);
+    max-width: min(80%, 100ch);
+    min-width: min(80%, 100ch);
     margin: 0 auto;
 
     h1, h2, h3 {
-        font-family: $display;
+        font-family: $sans;
     }
 
     p, li {

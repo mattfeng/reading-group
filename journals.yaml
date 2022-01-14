@@ -63,9 +63,12 @@ cancer:
       url: https://www.springer.com/journal/10555
       about: Each issue presents 5 to 7 different contributions on a single theme, with special emphasis on molecular and cellular biology of metastasis and tumor progression.
 
-internal_medicine:
-  display: Internal Medicine
+medicine:
+  display: Medicine
   journals:
+    - name: Nature Medicine
+      id: nature_medicine
+      url: https://www.nature.com/nm/
     - name: Annals of Internal Medicine
       id: annals_int_med
       url: https://www.acpjournals.org/journal/aim

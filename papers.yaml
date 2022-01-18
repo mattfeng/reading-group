@@ -183,7 +183,9 @@ ibd:
       tags:
         - dysbiotic gut microbiome
         - j.cell.2019.07.045
-
+    - title: Variation in Microbiome LPS Immunogenicity Contributes to Autoimmunity in Humans
+      url: https://www.cell.com/cell/fulltext/S0092-8674(16)30398-1
+      summary: j.cell.2016.04.007
 
 synbio:
   display: Synthetic biology

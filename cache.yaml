@@ -11,3 +11,8 @@
         - https://pubmed.ncbi.nlm.nih.gov/32311010/
         - https://fundingawards.nihr.ac.uk/award/NIHR200983
         - https://www.nice.org.uk/guidance/gid-dg10029/documents/html-content
+    - group: microbiome
+      links:
+        - url: https://pubmed.ncbi.nlm.nih.gov/28292977/
+          notes: role of microbiome in IBD
+

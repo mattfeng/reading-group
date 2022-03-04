@@ -20,8 +20,22 @@ html {
         font-family: $sans;
     }
 
+    h4 {
+        margin: 0;
+    }
+
+    ul {
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+    }
+    
+    ul ul {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
     p, li {
-        line-height: 1.25;
+        line-height: 1.15;
     }
 
     table {

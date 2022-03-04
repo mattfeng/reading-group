@@ -1,3 +1,10 @@
+bio:
+  display: Biology
+  journals:
+    - name: Nucleic Acids Research
+      id: nar
+      url: https://academic.oup.com/nar/
+      about: Publishes the results of leading edge research into physical, chemical, biochemical and biological aspects of nucleic acids and proteins.
 cancer:
   display: Cancer
   journals:

@@ -17,11 +17,12 @@ const Papers = ({ allPapers }) => {
         <div>
           <h3>{display}</h3>
           <ul>
-            {papers?.map(paper => (
-              <li key={paper.title}>
-                <Paper paper={paper} />
-              </li>
-            ))}
+            {papers &&
+              papers.map(paper => (
+                <li key={paper.title}>
+                  <Paper paper={paper} />
+                </li>
+              ))}
           </ul>
         </div>
       )
@@ -43,16 +44,17 @@ const Journals = ({ allJournals, impactFactor }) => {
         <div>
           <h3>{display}</h3>
           <ul>
-            {journals?.map(({ name, url, id, about }) => (
-              <li key={id}>
-                <Journal
-                  name={name}
-                  url={url}
-                  about={about}
-                  impactFactor={impactFactor[id]}
-                />
-              </li>
-            ))}
+            {journals &&
+              journals.map(({ name, url, id, about }) => (
+                <li key={id}>
+                  <Journal
+                    name={name}
+                    url={url}
+                    about={about}
+                    impactFactor={impactFactor[id]}
+                  />
+                </li>
+              ))}
           </ul>
         </div>
       )
@@ -74,16 +76,17 @@ const Books = ({ allBooks }) => {
       sections.push(
         <div>
           <h3>{display}</h3>
-          {books?.map(({ title, url, author, about, notes, year }) => (
-            <Book
-              title={title}
-              url={url}
-              author={author}
-              about={about}
-              notes={notes}
-              year={year}
-            />
-          ))}
+          {books &&
+            books.map(({ title, url, author, about, notes, year }) => (
+              <Book
+                title={title}
+                url={url}
+                author={author}
+                about={about}
+                notes={notes}
+                year={year}
+              />
+            ))}
         </div>
       )
     }

@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Paper from "../components/paper"
 
 import axios from "axios"
+import "../styles/shared.scss"
 import * as styles from "../styles/index.module.scss"
 
 const Papers = ({ allPapers }) => {
